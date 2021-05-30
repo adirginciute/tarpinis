@@ -1,0 +1,55 @@
+.talking {
+  background: #F8F8F8;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  .bottom-h2 {
+    text-align: center;
+    padding-bottom: 35px;
+  }
+  .people {
+    display: flex;
+    justify-content:  space-around;
+    padding-left: 4%;
+    padding-right: 4%;
+    .person {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .person-h2 {
+        margin: 10px;
+      }
+      .person-p2 {
+        color: #505050;
+      }
+      .Mar {
+        background-image: url("file:///C:/Users/Acer/Desktop/savarankiskasdarbas/Tarpinis%20atsiskaitymas/app/img/testimonials-1.jpg");
+        // background-image: url(/app/img/testimonials-1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 120px;
+        width: 120px;
+        border-radius: 100px;
+      }
+      .Fre {
+        background-image: url("file:///C:/Users/Acer/Desktop/savarankiskasdarbas/Tarpinis%20atsiskaitymas/app/img/testimonials-2.jpg");
+        // background-image: url(/app/img/testimonials-2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 120px;
+        width: 120px;
+        border-radius: 100px;
+      }
+      .Ser {
+        background-image: url("file:///C:/Users/Acer/Desktop/savarankiskasdarbas/Tarpinis%20atsiskaitymas/app/img/testimonials-3.jpg");
+        // background-image: url(/app/img/testimonials-3.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 120px;
+        width: 120px;
+        border-radius: 100px;
+      }
+    }
+  }
+}

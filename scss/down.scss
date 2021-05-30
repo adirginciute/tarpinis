@@ -1,0 +1,61 @@
+a {
+  text-decoration: none;
+}
+.bottomsignup {
+  background-image: url("file:///C:/Users/Acer/Desktop/savarankiskasdarbas/Tarpinis%20atsiskaitymas/app/img/bg-masthead.jpg");
+  // background-image: url(/app/img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  .singup-h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .bottomup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    input {
+      border-radius: 5px;
+      width: 21%;
+    }
+    .button-2 {
+        margin-left: 7px;
+        background: #007FFF;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        padding: 5px 35px;
+    }
+  }
+}
+.down {
+  padding: 3% 10%;
+  color: #007FFF;
+  background: #F8F8F8;
+  .down-container {
+    display: flex;
+    justify-content: space-between;
+    .about {
+      display: flex;
+    }
+    .dots {
+      color: black;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+  .social {
+    color: #007FFF;
+    font-size: 25px;
+    .fab {
+      padding-left: 15px;
+    }
+  }
+}
+.copyright {
+  color: #585858;
+  font-size: 10px;
+}
